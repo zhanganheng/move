@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1c2243"
+    tools:context=".frag.CinemaFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#fff"
+            android:textSize="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_30"
+            android:layout_marginLeft="@dimen/dp_164"
+            android:text="我的"
+            android:layout_width="@dimen/dp_32"
+            android:layout_height="31dp" />
+        <ImageView
+            android:id="@+id/mymessage_but"
+            android:src="@mipmap/xinxi"
+            android:layout_marginTop="@dimen/dp_35"
+            android:layout_marginLeft="@dimen/dp_313"
+            android:layout_width="@dimen/dp_22"
+            android:layout_height="@dimen/dp_17" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/my_data"
+        android:background="#fff"
+        android:layout_marginTop="@dimen/dp_84"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_width="@dimen/dp_312"
+        android:layout_height="@dimen/dp_90" >
+
+        <ImageView
+            android:id="@+id/mysrc_but"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="@dimen/dp_24"
+            android:layout_marginLeft="@dimen/dp_23"
+            android:layout_width="@dimen/dp_46"
+            android:layout_height="@dimen/dp_46" />
+
+        <TextView
+            android:id="@+id/myname_but"
+            android:textSize="@dimen/dp_14"
+            android:layout_marginTop="@dimen/dp_37"
+            android:layout_marginLeft="@dimen/dp_83"
+            android:text="电影故事"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_22" />
+
+        <ImageView
+            android:src="@mipmap/shape1"
+            android:layout_marginTop="@dimen/dp_32"
+            android:layout_marginLeft="@dimen/dp_280"
+            android:layout_width="@dimen/dp_24"
+            android:layout_height="@dimen/dp_24" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/myticket_but"
+        android:background="#141931"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="10dp"
+        android:layout_width="@dimen/dp_312"
+        android:layout_height="@dimen/dp_40">
+
+        <ImageView
+            android:src="@mipmap/wodedianyingpiao"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_23"
+            android:layout_width="@dimen/dp_24"
+            android:layout_height="@dimen/dp_20" />
+
+        <TextView
+            android:textColor="#fff"
+            android:textSize="@dimen/dp_14"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_63"
+            android:text="电影票"
+            android:layout_width="@dimen/dp_42"
+            android:layout_height="@dimen/dp_20" />
+
+        <ImageView
+            android:src="@mipmap/shape2"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_280"
+            android:layout_width="@dimen/dp_24"
+            android:layout_height="@dimen/dp_24" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:background="#141931"
+        android:layout_width="@dimen/dp_312"
+        android:layout_height="@dimen/dp_235">
+
+        <ImageView
+            android:id="@+id/guanzhu_but"
+            android:layout_marginTop="@dimen/dp_24"
+            android:layout_marginLeft="@dimen/dp_23"
+            android:src="@mipmap/invalid_name"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_46" />
+
+        <ImageView
+            android:id="@+id/yuyue_but"
+            android:layout_marginTop="@dimen/dp_24"
+            android:layout_marginLeft="@dimen/dp_152"
+            android:src="@mipmap/group_4"
+            android:layout_width="@dimen/dp_24"
+            android:layout_height="@dimen/dp_24" />
+
+        <TextView
+            android:text="我的预约"
+            android:textColor="#fff"
+            android:textSize="@dimen/dp_12"
+            android:layout_marginTop="@dimen/dp_56"
+            android:layout_marginLeft="@dimen/dp_146"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_14" />
+
+        <ImageView
+            android:id="@+id/buyticket_but"
+            android:layout_marginTop="@dimen/dp_24"
+            android:layout_marginLeft="@dimen/dp_266"
+            android:src="@mipmap/invalid_name1"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_46" />
+
+        <ImageView
+            android:id="@+id/mywatch_but"
+            android:layout_marginTop="@dimen/dp_94"
+            android:layout_marginLeft="@dimen/dp_19"
+            android:src="@mipmap/invalid_name4"
+            android:layout_width="@dimen/dp_60"
+            android:layout_height="@dimen/dp_46" />
+
+        <ImageView
+            android:id="@+id/pin_but"
+            android:src="@mipmap/invalid_name5"
+            android:layout_marginTop="@dimen/dp_94"
+            android:layout_marginLeft="@dimen/dp_140"
+            android:layout_width="@dimen/dp_60"
+            android:layout_height="@dimen/dp_46" />
+
+        <ImageView
+            android:id="@+id/fankui_but"
+            android:layout_marginTop="@dimen/dp_94"
+            android:layout_marginLeft="@dimen/dp_266"
+            android:src="@mipmap/copy_2"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_46" />
+
+        <ImageView
+            android:id="@+id/but_setting"
+            android:layout_marginTop="@dimen/dp_170"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:src="@mipmap/copy_3"
+            android:layout_width="@dimen/dp_24"
+            android:layout_height="@dimen/dp_46" />
+    </RelativeLayout>
+
+</LinearLayout>

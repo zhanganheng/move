@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/pincinema_img"
+        android:layout_marginLeft="@dimen/dp_34"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_width="@dimen/dp_70"
+        android:layout_height="@dimen/dp_70" />
+
+    <TextView
+        android:textColor="#fff"
+        android:text="111"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_toRightOf="@id/pincinema_img"
+        android:textSize="@dimen/dp_14"
+        android:id="@+id/pinc_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#fff"
+        android:text="111"
+        android:layout_marginTop="@dimen/dp_70"
+        android:layout_toRightOf="@id/pincinema_img"
+        android:textSize="@dimen/dp_12"
+        android:id="@+id/pinc_km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#fff"
+        android:text="111"
+        android:layout_marginTop="@dimen/dp_40"
+        android:layout_toRightOf="@id/pincinema_img"
+        android:textSize="@dimen/dp_12"
+        android:id="@+id/pinc_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#fff"
+        android:text="我的评价"
+        android:layout_marginLeft="@dimen/dp_34"
+        android:layout_below="@id/pincinema_img"
+        android:layout_marginTop="@dimen/dp_30"
+        android:textSize="@dimen/dp_14"
+        android:id="@+id/pinc_a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#fff"
+        android:text="11"
+        android:layout_marginLeft="@dimen/dp_34"
+        android:layout_below="@id/pinc_a1"
+        android:layout_marginTop="@dimen/dp_10"
+        android:textSize="@dimen/dp_12"
+        android:id="@+id/pinc_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#fff"
+        android:text="11"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp_30"
+        android:layout_below="@id/pinc_a1"
+        android:layout_marginTop="@dimen/dp_30"
+        android:textSize="@dimen/dp_12"
+        android:id="@+id/pinc_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frag.FuFragment">
+
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/fujing_view"
+        android:layout_width="@dimen/dp_312"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_20"></com.jcodecraeer.xrecyclerview.XRecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/tickets_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/sou_img"
+            android:layout_width="@dimen/dp_164"
+            android:layout_height="@dimen/dp_164"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/guanzhupic" />
+
+        <TextView
+            android:layout_width="@dimen/dp_112"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sou_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_30"
+            android:text=" 暂无信息！亲"
+            android:textColor="#fff" />
+    </RelativeLayout>
+</LinearLayout>

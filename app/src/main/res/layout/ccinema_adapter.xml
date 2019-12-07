@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/img_src3"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_130" />
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/text_name3"
+        android:textSize="14dp"
+        android:layout_marginLeft="@dimen/dp_55"
+        android:layout_below="@id/img_src3"
+        android:layout_width="@dimen/dp_84"
+        android:text="lly"
+        android:layout_height="@dimen/dp_20" />
+    <Button
+        android:layout_marginLeft="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="购票"
+        android:textSize="12dp"
+        android:textColor="#fff"
+        android:layout_below="@id/text_name3"
+        android:background="@drawable/but_shape"
+        android:layout_width="@dimen/dp_45"
+        android:layout_height="@dimen/dp_20" />
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#141931"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/paiqi_name"
+        android:layout_marginTop="@dimen/dp_12"
+        android:textColor="#fff"
+        android:text="lly"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/paiqi_name"
+        android:id="@+id/paiqi_time"
+        android:layout_marginTop="@dimen/dp_18"
+        android:textColor="#fff"
+        android:text="lly"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/qq"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_44"
+        android:layout_toRightOf="@id/paiqi_time"
+        android:textColor="#fff"
+        android:text="——"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:layout_below="@id/paiqi_name"
+        android:id="@+id/paiqi_time2"
+        android:layout_marginTop="@dimen/dp_18"
+        android:textColor="#fff"
+        android:layout_toRightOf="@id/qq"
+        android:text="lly"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

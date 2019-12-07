@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+
+        android:background="@drawable/screen_checkbox"
+        android:layout_marginTop= "@dimen/dp_16"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:button="@null"
+        android:id="@+id/chose_checkbox"
+        android:layout_width="@dimen/dp_20"
+        android:layout_height="@dimen/dp_20" />
+</LinearLayout>

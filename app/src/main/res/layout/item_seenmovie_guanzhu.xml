@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/seen_src"
+        android:layout_width="@dimen/dp_95"
+        android:layout_height="@dimen/dp_140"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_20" />
+
+    <TextView
+        android:id="@+id/seen_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_toRightOf="@id/seen_src"
+        android:text="name"
+        android:textColor="#fff"
+        android:textSize="@dimen/dp_16" />
+
+    <TextView
+        android:id="@+id/seen_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_80"
+        android:layout_toRightOf="@id/seen_src"
+        android:text="订    单    号"
+        android:textColor="#fff"
+        android:textSize="@dimen/dp_12" />
+
+
+    <Button
+        android:id="@+id/pinjia_but"
+        android:layout_width="@dimen/dp_72"
+        android:layout_height="@dimen/dp_28"
+        android:layout_below="@id/seen_time"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_toRightOf="@id/seen_src"
+        android:background="#e8185e"
+        android:text="去评价"
+        android:textColor="#FFF" />
+</RelativeLayout>

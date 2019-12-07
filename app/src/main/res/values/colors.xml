@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="pink">#EB6692</color>
+    <color name="pink_s">#F80054</color>
+    <color name="wepink">#82BD84</color>
+    <color name="back">#141931</color>
+    <color name="gray">#CCCFD3</color>
+    <color name="write">#FFF</color>
+    <color name="shenblue">#0E174D</color>
+    <color name="yellow">#FFEB3B</color>
+</resources>

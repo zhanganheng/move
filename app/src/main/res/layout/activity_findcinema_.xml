@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#141931"
+    tools:context=".activity.Findcinema_Activity">
+
+    <ImageView
+        android:id="@+id/find_letf"
+        android:layout_marginTop="@dimen/dp_47"
+        android:layout_marginLeft="@dimen/dp_27"
+        android:src="@mipmap/left_shape"
+        android:layout_width="@dimen/dp_16"
+        android:layout_height="@dimen/dp_16" />
+
+    <EditText
+        android:id="@+id/find_edit"
+        android:background="@drawable/but_shape1"
+        android:layout_marginLeft="@dimen/dp_18"
+        android:layout_marginTop="@dimen/dp_45"
+        android:layout_toRightOf="@id/find_letf"
+        android:layout_width="@dimen/dp_230"
+        android:layout_height="@dimen/dp_30" />
+    <Button
+        android:id="@+id/find_but"
+        android:text="搜索"
+        android:background="@drawable/but_shape"
+        android:layout_marginTop="@dimen/dp_40"
+        android:layout_toRightOf="@id/find_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_33" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/find_but"
+        android:id="@+id/find_recycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/sou_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/sou_img"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/sousuo"
+            android:layout_width="@dimen/dp_164"
+            android:layout_height="@dimen/dp_164" />
+        <TextView
+            android:layout_below="@+id/sou_img"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/dp_20"
+            android:textColor="#fff"
+            android:text="没有相关搜索结果换个词试试吧"
+            android:layout_width="@dimen/dp_112"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/textq"
+        android:text="剧情简介"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_width="@dimen/dp_56"
+        android:layout_height="@dimen/dp_20" />
+
+    <TextView
+        android:id="@+id/xiang_jianjie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textq"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="5dp"
+        android:text="剧情简介"
+        android:textColor="#fff" />
+
+    <TextView
+        android:textColor="#fff"
+        android:layout_below="@id/xiang_jianjie"
+        android:id="@+id/text1"
+        android:text="演职人员"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_width="@dimen/dp_56"
+        android:layout_height="@dimen/dp_20" />
+
+
+    <TextView
+        android:textColor="#fff"
+        android:textSize="@dimen/dp_12"
+        android:id="@+id/xiang_dao_number"
+        android:layout_width="@dimen/dp_56"
+        android:layout_height="@dimen/dp_20"
+        android:layout_below="@id/text1"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="导演" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_dao"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_below="@+id/xiang_dao_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:textColor="#fff"
+        android:textSize="@dimen/dp_12"
+        android:id="@+id/xiang_yan_number"
+        android:layout_width="@dimen/dp_56"
+        android:layout_height="@dimen/dp_20"
+        android:layout_below="@id/recycle_dao"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="导演" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_yan"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_below="@+id/xiang_yan_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

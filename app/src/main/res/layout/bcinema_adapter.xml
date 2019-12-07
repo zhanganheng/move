@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <RelativeLayout
+       android:background="#1c2243"
+       android:layout_marginTop="@dimen/dp_10"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <com.facebook.drawee.view.SimpleDraweeView
+           android:layout_marginTop="@dimen/dp_10"
+           android:id="@+id/img_src2"
+           android:layout_marginLeft="@dimen/dp_24"
+           android:layout_width="@dimen/dp_100"
+           android:layout_height="@dimen/dp_130" />
+
+       <TextView
+           android:textColor="#fff"
+           android:id="@+id/text_name2"
+           android:layout_marginTop="@dimen/dp_30"
+           android:layout_marginLeft="@dimen/dp_10"
+           android:layout_toRightOf="@id/img_src2"
+           android:textSize="14dp"
+           android:text="lly"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+       <TextView
+           android:textColor="#fff"
+           android:id="@+id/text_time2"
+           android:layout_marginLeft="@dimen/dp_10"
+           android:layout_toRightOf="@id/img_src2"
+           android:textSize="14dp"
+           android:layout_marginTop="@dimen/dp_50"
+           android:text="lly"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+       <TextView
+           android:textColor="#fff"
+           android:id="@+id/text_count2"
+           android:layout_marginLeft="@dimen/dp_10"
+           android:layout_toRightOf="@id/img_src2"
+           android:textSize="14dp"
+           android:layout_marginTop="@dimen/dp_20"
+           android:text="lly"
+           android:layout_below="@id/text_time2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <Button
+           android:id="@+id/yuyue_but1"
+           android:background="@drawable/but_shape"
+           android:layout_marginLeft="@dimen/dp_70"
+           android:layout_marginTop="@dimen/dp_100"
+           android:text="预约"
+           android:textSize="12dp"
+           android:layout_marginRight="@dimen/dp_30"
+           android:layout_alignBottom="@id/img_src1"
+           android:layout_alignParentRight="true"
+           android:textColor="#fff"
+           android:layout_below="@id/text_name1"
+           android:layout_width="@dimen/dp_45"
+           android:layout_height="@dimen/dp_20" />
+   </RelativeLayout>
+</RelativeLayout>

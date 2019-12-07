@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="@dimen/dp_100"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:background="#fff"
+         android:paddingBottom="@dimen/dp_25"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/weixin_but"
+            android:layout_marginLeft="@dimen/dp_2"
+            android:src="@mipmap/weixin_copy_3"
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/sp_25" />
+        <TextView
+            android:layout_marginLeft="@dimen/dp_20"
+            android:textSize="@dimen/dp_20"
+            android:text="微信支付"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+     android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/zhifubao_but"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:src="@mipmap/zhifubao_a"
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/sp_25" />
+        <TextView
+            android:layout_marginLeft="@dimen/dp_20"
+            android:textSize="@dimen/dp_20"
+            android:text="支付宝支付"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
+

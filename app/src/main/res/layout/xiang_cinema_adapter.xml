@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#000"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/xiang_but"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:textColor="#d3af56"
+        android:text="lly"
+        android:textSize="@dimen/dp_12"
+        android:background="@drawable/kuang_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
